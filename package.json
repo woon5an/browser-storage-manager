@@ -1,0 +1,34 @@
+{
+  "name": "browser-storage-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "storage",
+    "secure",
+    "typescript",
+    "encryption",
+    "indexeddb",
+    "localStorage"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "woonsan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.6"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
