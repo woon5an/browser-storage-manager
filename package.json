@@ -1,6 +1,6 @@
 {
   "name": "browser-storage-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -20,7 +20,7 @@
   "files": [
     "dist"
   ],
-  "author": "woonsan",
+  "author": "woon5an",
   "license": "MIT",
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
